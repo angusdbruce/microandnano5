@@ -1,0 +1,58 @@
+\begin{figure}[!htb]
+\begin{center}
+\begin{tikzpicture}
+
+\begin{axis}[
+    %title={Temperature dependence of CuSO$_4\cdot$5H$_2$O solubility},
+    xlabel={Gap ($\mu m$)},
+    ylabel={Resistance ($M\Omega$)},
+    height=8cm,
+    width=0.67\textwidth,
+    xmin=0, xmax=18,
+    ymin=-2000, ymax=8000,
+    xtick={2, 4, 6, 8, 10,12,14,16},
+    ytick={-2000, 0, 2000, 4000, 6000, 8000},
+    legend pos=south east,
+    xmajorgrids=true,
+    grid style=dashed,
+]
+
+\addplot[color=red, mark=square]
+  coordinates {
+    (3.5294, 1688.6948729656475)
+    (5.0640, 2421.909455798071)
+    (6.9493, 3145.40200426434)
+    (8.9467, 3940.371048004494)
+    (10.719, 4916.773356381926)
+    (12.887, 5005.786825762101)
+    (14.932, 5836.263210347023)
+    (16.966, 7338.793759028416)
+};
+  \addlegendentry{Resistance}
+
+% \addplot [
+%   domain=0:18,
+%   samples=100,
+%   color=blue,
+%     ]
+%       {106.30760633430582*x - 43.05146906783261};
+%       % \addlegendentry{Line of Best Fit using all data points}
+
+\addplot [
+  domain=0:18,
+  samples=100,
+  color=green,
+    ]
+    % {95.89874571698954*x + 80.29228665958908};
+    {438.082547280779*x - 93.71473813728062};
+  % \addlegendentry{Line of Best Fit using $2-10\mu m$}
+  \addlegendentry{Line of Best Fit}
+
+
+\end{axis}
+\end{tikzpicture}
+
+\caption{Plot of Resistance vs TLM Gaps on Substrate A at $150\degree C$ with Line of Best Fit}
+\label{fig:results:res_line_150}
+\end{center}
+\end{figure}

@@ -1,0 +1,145 @@
+\documentclass[a4paper]{article}
+
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}	\addtolength{\textwidth}{1.375in}
+
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.375in}
+
+\usepackage[british]{babel}
+\usepackage[UKenglish]{datetime}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{pgfplots}
+\usepackage{blindtext}
+\usepackage{scalerel,amssymb}
+\def\msquare{\mathord{\scalerel*{\Box}{gX}}}
+% \usepackage{epstopdf}
+% \epstopdfDeclaregraphicsRule{.tif}{png}{.png}{convert #1 \OutputFile}
+% \AppendGraphicsExtentions{.tif}
+\pgfplotsset{compat=1.16}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{subcaption}
+%\usepackage{circuitikz}
+\usepackage[colorinlistoftodos]{todonotes}
+\usetikzlibrary{positioning,fit,calc,arrows.meta, positioning}
+\tikzset{block/.style={draw,thick,text width=2cm,minimum height=1cm,align=center},
+         line/.style={-latex}
+         }
+\usepackage{listings}
+\usepackage{lipsum}
+\usepackage{courier}
+\usepackage{hyperref}
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage[nottoc]{tocbibind}
+
+\usepackage{setspace}
+\usepackage[acronym, toc]{glossaries}
+\usepackage[titletoc, page]{appendix}
+\input{Chapters/glossary.tex}
+%\onehalfspacing
+\singlespacing
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.92,0.96,1}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numbers=left,
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize\ttfamily,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+
+\title{Title Title Title}
+\author{Angus Bruce \and Robert Norris \and Simon Ridley \and Alex Strachan}\date{\today}
+
+
+
+\begin{document}
+  \clearpage
+
+  \maketitle
+  \begin{center}
+    \vfill
+    \includegraphics[width=8cm]{Figures/example.pdf}
+    \vfill
+    Completed in partial fulfilment of the Degree of Master of Engineering in Electronics with Music
+
+    \vspace{1.5cm}
+
+    James Watt School of Engineering
+
+    University of Glasgow
+
+    \vfill
+    \includegraphics[width=6cm]{Figures/logo-glasgow-university-1-transparent.png}
+    \vfill
+  \end{center}
+  \thispagestyle{empty}
+
+  \newpage
+  \thispagestyle{empty}
+  \input{Chapters/abstract.tex}
+
+
+  \newpage
+  \thispagestyle{empty}
+  \input{Chapters/acknowledgements.tex}
+
+
+  \newpage
+  \thispagestyle{empty}
+  \tableofcontents
+  \thispagestyle{empty}
+  \listoffigures
+  \thispagestyle{empty}
+  \listoftables
+  %\newpage
+  % \printglossary
+  % \printglossary[type=\acronymtype]
+
+
+  \newpage
+  \pagenumbering{arabic}
+  % \onehalfspacing
+  \spacing{1.5}
+
+  \input{Chapters/Introduction/introduction.tex}
+
+  \input{Chapters/Hardware/hardware.tex}
+
+  \input{Chapters/AI/ai.tex}
+
+  \input{Chapters/Conclusion/conclusion.tex}
+
+  \input{Chapters/Evaluation/evaluation.tex}
+
+  \input{Chapters/Further_Work/further_work.tex}
+
+  \input{Chapters/bibliography.tex}
+
+  \input{Chapters/appendices.tex}
+
+\end{document}
