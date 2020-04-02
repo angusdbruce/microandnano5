@@ -1,16 +1,19 @@
 \babel@toc {british}{}
-\contentsline {section}{List of Figures}{4}{section*.2}%
-\contentsline {section}{List of Tables}{4}{section*.3}%
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}subsection1}{1}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}subsubsection1}{1}{subsubsection.1.1.1}%
-\contentsline {section}{\numberline {2}Automated Laboratory}{2}{section.2}%
-\contentsline {section}{\numberline {3}Image Recognition and Classification}{2}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Introduction}{2}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Definitions}{3}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Conclusion}{3}{section.4}%
-\contentsline {section}{\numberline {5}Evaluation}{3}{section.5}%
-\contentsline {section}{\numberline {6}Further Work}{3}{section.6}%
-\contentsline {section}{References}{4}{section*.8}%
-\contentsline {section}{Appendix \numberline {A}Section}{5}{Appendix.1.A}%
-\contentsline {subsection}{\numberline {A.1}Subsection}{5}{subsection.1.A.1}%
+\contentsline {section}{List of Figures}{2}{section*.2}%
+\contentsline {section}{List of Tables}{2}{section*.3}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Fabrication}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Cleanrooms}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Cleans}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Photolithography}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Etching}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Metallisation}{4}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Lift-Off}{4}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Test}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Apparatus}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}I-V Characteristics}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}LI Characteristics}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Spectral Characteristics}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Contact Resistance}{5}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Commentary}{5}{section.4}%
+\contentsline {section}{References}{6}{section*.4}%

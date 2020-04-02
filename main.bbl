@@ -21,19 +21,15 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{lin_koizumi_yater_koeck_2014}
-\BIBentryALTinterwordspacing
-I.-N. Lin, S.~Koizumi, J.~Yater, and F.~Koeck, ``Diamond electron emission,''
-  \emph{MRS Bulletin}, vol.~39, no.~6, p. 533–541, 2014. [Online]. Available:
-  \url{https://doi.org/10.1557/mrs.2014.101}
-\BIBentrySTDinterwordspacing
+\bibitem{einstein}
+A.~Einstein, ``{Zur Elektrodynamik bewegter K{\"o}rper}. ({German}) [{On} the
+  electrodynamics of moving bodies],'' \emph{Annalen der Physik}, vol. 322,
+  no.~10, pp. 891--921, 1905.
 
-\bibitem{emission_suppression_08}
+\bibitem{s18}
 \BIBentryALTinterwordspacing
-D.~Takeuchi, M.~Ogura, S.-G. Ri, H.~Kato, H.~Okushi, and S.~Yamasaki,
-  ``Electron emission suppression from hydrogen-terminated n-type diamond,''
-  \emph{Diamond and Related Materials}, vol.~17, no.~6, pp. 986--988, 2008.
-  [Online]. Available: \url{https://doi.org/10.1016/j.diamond.2008.02.036}
+Shipley microposit s1800 series photo resists. [Online]. Available:
+  \url{https://amolf.nl/wp-content/uploads/2016/09/datasheets_S1800.pdf}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
