@@ -15,5 +15,5 @@
 \contentsline {subsection}{\numberline {3.3}LI Characteristics}{4}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Spectral Characteristics}{5}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Contact Resistance}{5}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Commentary}{5}{section.4}%
-\contentsline {section}{References}{6}{section*.4}%
+\contentsline {section}{\numberline {4}Commentary}{6}{section.4}%
+\contentsline {section}{References}{7}{section*.7}%
