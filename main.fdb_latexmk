@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1586298010 "main.aux" "main.bbl" "main" 1586298284
+["bibtex main"] 1586298010 "main.aux" "main.bbl" "main" 1586298483
   "/usr/local/texlive/2019/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1586298283 7270 3be869398d02c8fb62e68b2d42e051cd "pdflatex"
+  "main.aux" 1586298483 7270 3be869398d02c8fb62e68b2d42e051cd "pdflatex"
   "references.bib" 1579166255 18782 8e78823ca9685c8e65155ef6decb753e ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1586298268 "main.tex" "main.pdf" "main" 1586298284
-  "/dev/null" 1586298027 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "main.bbl"
+["pdflatex"] 1586298467 "main.tex" "main.pdf" "main" 1586298483
+  "/dev/null" 1586298436 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -343,12 +343,12 @@
   "Figures/angus_bruce/plotting/spectral_close.tex" 1586291609 413643 1207b2032ebe52c0017dde9ed66f12a7 ""
   "Figures/angus_bruce/plotting/spectral_far.tex" 1586297993 413682 4d090cec2884ab51ef7fba2524d480f3 ""
   "Figures/angus_bruce/plotting/spectral_plot.tex" 1586291609 405 c0b8a9d53d11c55c022386145f138630 ""
-  "main.aux" 1586298283 7270 3be869398d02c8fb62e68b2d42e051cd "pdflatex"
+  "main.aux" 1586298483 7270 3be869398d02c8fb62e68b2d42e051cd "pdflatex"
   "main.bbl" 1586298010 1092 e46337390e4e74374675df055635ba62 "bibtex main"
-  "main.out" 1586298283 917 5d013a0787e773cdb3d63ef3a8fcf91e "pdflatex"
-  "main.tex" 1586297333 3152 ff97b2a240c66aa0686259f82568dfcd ""
+  "main.out" 1586298483 917 5d013a0787e773cdb3d63ef3a8fcf91e "pdflatex"
+  "main.tex" 1586298467 3163 18d62379241960f6e10571d4976e8a8c ""
   (generated)
   "main.out"
-  "main.log"
   "main.aux"
+  "main.log"
   "main.pdf"
